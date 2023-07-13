@@ -1,0 +1,50 @@
+.about-hero-section{
+    .hero-first-img{
+        padding: 0;
+    }
+    h1 {
+        font-size: 43px;
+    }
+    .i-hero-text {
+        max-width: 450px;
+        margin: auto;
+    }
+    h5{
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+    // .abt h5::before {
+    //     content: "";
+    //     width: 100%;
+    //     position: absolute;
+    //     border-bottom: 1px solid #000;
+    //     rotate: 90deg;
+    //     left: 0;
+    // }
+}
+
+.story-section{
+    padding: 80px 0;
+    img {
+        max-width: 680px;
+        margin: auto;
+    }
+    h2{
+        font-family: Merriweather;
+        font-size: 39px;
+        font-weight: 400;
+        line-height: 48px;
+        span{
+            font-family: Merriweather;
+            font-size: 39px;
+            font-weight: 700;
+            line-height: 48px;
+        }
+    }
+    .story-text {
+        max-width: 445px;
+        margin: auto;
+    }
+
+
+}

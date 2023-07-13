@@ -1,0 +1,358 @@
+
+
+
+@media all and (max-width:1920px){  
+}
+
+
+
+
+
+@media all and (max-width:1400px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:1200px){
+    .help-section img.moon {
+        width: 184px;
+        right: 6px;
+    }
+    .help-section .love {
+        left: 81px;
+    }
+    .course-section .course-img {
+        right: -98px;
+    }
+
+}
+
+@media all and (max-width:993px){
+    .header-section .h-menu ul li {
+        display: none;
+    }
+    .i-hero-section h1 {
+        font-size: 45px;
+        line-height: 51px;
+    }
+    .help-section img.moon {
+        z-index: -1;
+        opacity: .4;
+    }
+    .help-section img.love {
+        z-index: -1;
+        opacity: .4;
+    }
+    .help-section img.shadaw {
+        z-index: -1;
+        opacity: .4;
+    }
+    .help-section .love {
+        width: 33px;
+    }
+    .help-section .shadaw {
+        width: 170px;
+    }
+    .comment-card2 {
+        margin-bottom: 80px;
+    }
+    .comment-card {
+        margin: auto;
+    }
+    .comment-section .shadaw {
+        left: 0;
+        bottom: -39px;
+    }
+    .i-hero-section .hero-first-img {
+        padding-left: 78px;
+    }
+    .i-hero-section .hero-second-img {
+        bottom: 66px;
+    }.comment-section .comment-img {
+        padding-left: 95px;
+    }
+    .course-img {
+        right: -131px;
+    }
+    .course-section .course-img {
+        right: -136px;
+        opacity: 0.5;
+        top: 0;
+    }
+    .featured-card-wrapper {
+        margin-bottom: 25px;
+    }
+    .footer-common {
+        padding: 20px;
+    }
+    .working-reason-section .work-card-text {
+        margin: 75px 0 0 0;
+    }
+    .working-reason-section .work-card-text {
+        padding-left: 0px;
+    }
+    .working-reason-section {
+        padding: 50px;
+    }
+    .work-card {
+        max-width: 500px;
+        margin: auto;
+    }
+    .featured-section .featured-card-wrapper {
+        max-width: 435px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .blog-cover .src-btn{
+        display: none;
+    }
+    .blog-cover .blog-menu {
+        justify-content: center;
+    }
+    .information .newslatter-button img {
+        max-width: 300px;
+        position: absolute;
+        top: -65px;
+        right: 0;
+        opacity: 0.6;
+    }
+    .information h1 {
+        font-size: 25px;
+    }
+}   
+   
+
+
+
+
+
+@media all and (max-width:767px){
+    .i-hero-section h1 {
+        font-size: 41px;
+    }
+   
+    .i-hero-section .i-hero-first {
+        justify-content: center;
+    }
+    .i-hero-section .i-hero-text {
+        margin: auto;
+        padding-top: 30px;
+    }
+    .testimonial-card p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    
+    .comment-card p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .comment-section .shadaw {
+        left: -4px;
+        bottom: -39px;
+    }
+    .comment-section {
+        background: #F1EAE3;
+        padding: 50px 0 50px 0;
+    }
+    .i-hero-section .row {
+        flex-direction: column-reverse;
+    }
+    .comment-section .comment-img {
+        padding-left: 100px;
+    }
+    .corse-card-wrapper {
+        flex-direction: column;
+    }
+    .featured-section{
+        padding: 50px 0;
+    }
+    .footer-common {
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .course-section .col-md-6.col-lg-5 {
+        margin-bottom: 25px;
+    }
+    .comment-section .row {
+        flex-direction: column-reverse;
+    }
+    .working-reason-section h2 {
+        font-size: 31px;
+    }
+    .working-reason-section span {
+        font-size: 61px;
+    }
+    .course-section .course-img {
+        top: 126px;
+    }
+    .blog-cover .menu-wrapper {
+        display: none;
+    }
+    .information h1 {
+        margin-bottom: 30px;
+    }
+    .latest-blog-section {
+        padding: 50px 0;
+    }
+    .all-top-blog .top-blog {
+        padding: 50px 0;
+    }
+    .top-blog .featured-section {
+        padding: 20px 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:567px){
+    .h-menu {
+        display: none !important;
+    }
+    .i-hero-section {
+        background: #F1EAE3;
+        padding: 40px 0px;
+    }
+    .header-section .header-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .i-hero-section h1 {
+        font-size: 35px;
+        line-height: 37px;
+    }
+    .help-section {
+        padding: 30px 0;
+    }
+    .comment-section.py-5 {
+        padding-top:0 !important;
+        padding-bottom: 3rem !important;
+    }
+    .comment-card2 {
+        margin-bottom: 70px;
+    }
+    .our-testimonial-section.py-5 {
+        padding-top: 3rem !important;
+        padding-bottom: 0 !important;
+    }
+    .working-reason-section .work-card {
+        position: relative;
+        padding-left: 89px;
+    }
+    .working-reason-section .wc-inner {
+        width: 180px;
+    }
+    .our-searvice .searvice-text-title {
+        margin-bottom: 0;
+    }
+    .comment-section .shadaw {
+        left: 24px;
+        bottom: -39px;
+        width: 186px;
+        height: 160px;
+        position: absolute;
+        left: 3px;
+        bottom: -39px;
+    }
+    .comment-section .comment-img {
+        padding-left: 66px;
+    }
+    .course-section h2 {
+        font-size: 23px;
+    }
+    .course-section h3 {
+        font-size: 65px;
+    }
+    .course-section .corse-card-wrapper {
+        gap: 20px;
+    }
+    .course-section {
+        padding: 50px 0;
+    }
+    .working-reason-section {
+        padding: 50px 0;
+    }
+    .featured-section .featured-text h3 {
+        font-size: 19px;
+    }
+    .footer-common {
+        margin: auto;
+        margin-bottom: 35px;
+    }
+    .featured-section {
+        padding: 20px 0;
+    }
+    .footer-section {
+        padding: 30px 0;
+    }
+    .footer-section .footer-form-text .footer-img1 {
+        opacity: .7;
+        left: 70%;
+    }
+    .footer-section .footer-form-text .footer-img2 {
+        opacity: .6;
+        right: -28%;
+    }
+    .footer-section .footer-form  p {
+        font-size: 16px;
+    }
+    .footer-section .footer-form h4 {
+        font-size: 22px;
+    }
+    .footer-section .footer-form-wrapper {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 16px !important;
+        line-height: 25px !important;
+    }
+    .course-section .course-img {
+        top: 81px;
+    }
+    .featured-section .featured-card-wrapper {
+        margin-bottom: 25px;
+    }
+    .information h1 {
+        font-size: 27px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .top-blog {
+        padding: 50px 0 30px 0;
+    }
+    .information {
+        padding: 50px 0;
+    }
+    .latest-blog-section .latest-text h3 {
+        font-size: 32px;
+    }
+    .latest-blog-section .latest-text {
+        gap: 15px;
+    }
+    .all-top-blog .top-blog {
+        padding: 30px 0;
+    }
+    .top-blog .featured-section {
+        padding: 15px 0 0 0;
+    }
+
+}
