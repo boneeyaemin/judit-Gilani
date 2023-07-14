@@ -127,6 +127,13 @@
     .information h1 {
         font-size: 25px;
     }
+    .story-text p {
+        font-size: 16px;
+    }
+    .story-section h2 {
+        font-size: 31px;
+        line-height: 37px;
+    }
 }   
    
 
@@ -208,6 +215,15 @@
     }
     .top-blog .featured-section {
         padding: 20px 0 0 0;
+    }
+    .story-text {
+        padding-top: 30px;
+    }
+    .i-hero-section {
+        padding: 50px 0px;
+    }
+    .promo-section {
+        padding: 50px 0;
     }
 }
 
@@ -354,5 +370,13 @@
     .top-blog .featured-section {
         padding: 15px 0 0 0;
     }
-
+    .story-text {
+        padding-top: 20px;
+    }
+    .one-px {
+        margin-top: -9px;
+    }
+    .i-hero-section {
+        padding: 40px 0px;
+    }
 }

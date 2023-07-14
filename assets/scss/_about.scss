@@ -1,7 +1,9 @@
 .about-hero-section{
     .hero-first-img{
         padding: 0;
+        width: 100%;
     }
+
     h1 {
         font-size: 43px;
     }
@@ -13,14 +15,10 @@
         writing-mode: vertical-lr;
         text-orientation: upright;
     }
-    // .abt h5::before {
-    //     content: "";
-    //     width: 100%;
-    //     position: absolute;
-    //     border-bottom: 1px solid #000;
-    //     rotate: 90deg;
-    //     left: 0;
-    // }
+    .hero-first-img {
+        padding:0 !important ;
+    }
+    
 }
 
 .story-section{
@@ -29,22 +27,101 @@
         max-width: 680px;
         margin: auto;
     }
+    .story-photo img {
+        width: 100%;
+    }
     h2{
         font-family: Merriweather;
         font-size: 39px;
         font-weight: 400;
         line-height: 48px;
+        color: #263045;
         span{
-            font-family: Merriweather;
-            font-size: 39px;
             font-weight: 700;
-            line-height: 48px;
         }
     }
     .story-text {
         max-width: 445px;
         margin: auto;
     }
+    .story-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
 
+.about-testimonial{
+    padding: 50px 0;
+    background: #CADFDF;
+    svg {
+        height: 38px;
+    }
+    h5{
+        font-family: RochestarDemo;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 48px;
+    }
+    .testimonial-card {
+        max-width: 699px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .test {
+        position: absolute;
+        bottom: -83px;
+    }
+}
+.owl-nav {
+	justify-content: space-between;
+	display: flex;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+} 
+.owl-dot {
+	height: 10px;
+	width: 10px;
+	background: #263045 !important;
+	margin: 7px;
+	border-radius: 50%;
+}
+.owl-dots {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 30px;
+}
+.owl-dot.active {
+	background: var(--primary ) !important;
+}
+.text-photo-section {
+	padding: 80px 0 80px 0;
+    h1{
+        font-family: Merriweather;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+    h4{
+        font-family: Nunito;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #A49393;
+    }
+    .t-p-text {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 545px;
+        margin: auto;
+    }
 
 }
