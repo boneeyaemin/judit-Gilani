@@ -422,6 +422,7 @@ h1, h2, h3, h4, h5, h6 {
 .course-section {
   padding: 80px 0;
   background: #E9EDF1;
+  overflow: hidden;
 }
 .course-section h3 {
   font-family: RochestarDemo;
@@ -514,6 +515,9 @@ h1, h2, h3, h4, h5, h6 {
   background: #F1EAE3;
   box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
+}
+.featured-section .featured-card-wrapper img {
+  width: 100%;
 }
 .featured-section .featured-card-wrapper:hover {
   box-shadow: 0px 15px 30px -8px rgba(0, 0, 0, 0.25);
@@ -906,6 +910,11 @@ h1, h2, h3, h4, h5, h6 {
   gap: 20px;
 }
 
+.test {
+  position: absolute;
+  bottom: -83px;
+}
+
 .about-testimonial {
   padding: 50px 0;
   background: #CADFDF;
@@ -927,10 +936,6 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   gap: 20px;
   align-items: center;
-}
-.about-testimonial .test {
-  position: absolute;
-  bottom: -83px;
 }
 
 .owl-nav {
@@ -985,6 +990,59 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+  display: block;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h-menu ul {
+  display: flex;
+  column-gap: 20px;
+}
+
+.menu-trigger span {
+  display: block;
+  background: black;
+  border-bottom: 2px solid;
+  width: 25px;
+}
+
+.menu-trigger {
+  display: none;
+  flex-direction: column;
+  row-gap: 5px;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu {
+  padding-left: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.mobile-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.header-wrapper.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .promo-section {
   padding: 80px 0;
   position: relative;
@@ -1031,7 +1089,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-section {
-  padding: 80px 0;
+  padding: 160px 0 80px 0;
 }
 .text-section .text-card {
   padding: 20px 0;
@@ -1042,7 +1100,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 40px;
 }
-.text-section .text-card {
+
+.text-card {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -1056,6 +1115,65 @@ h1, h2, h3, h4, h5, h6 {
   background: #F1EAE3;
 }
 
+.accordion {
+  padding: 80px 0;
+}
+.accordion .accordian-title {
+  max-width: 524px;
+  margin: auto;
+  text-align: center;
+}
+.accordion h4 {
+  font-family: Merriweather;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.accordion .accordion-button {
+  box-shadow: none !important;
+  font-family: Merriweather;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.accordion .accordion-button::after {
+  content: "+";
+  font-family: "Font Awesome 6 Free";
+  background-image: none;
+}
+.accordion .accordion-button:not(.collapsed) {
+  color: black;
+  background-color: transparent;
+}
+.accordion #accordionExample {
+  max-width: 900px;
+  margin: auto;
+}
+.accordion .accordion-body {
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.accordion .accordian-titlee {
+  max-width: 675px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.accordion .accordian-titlee h4 {
+  margin: 0;
+}
+
+.f-free-corse {
+  padding-bottom: 80px;
+}
+
 @media all and (max-width: 1200px) {
   .help-section img.moon {
     width: 184px;
@@ -1067,11 +1185,11 @@ h1, h2, h3, h4, h5, h6 {
   .course-section .course-img {
     right: -98px;
   }
+  .header-section .h-menu ul li {
+    display: none !important;
+  }
 }
 @media all and (max-width: 993px) {
-  .header-section .h-menu ul li {
-    display: none;
-  }
   .i-hero-section h1 {
     font-size: 45px;
     line-height: 51px;
@@ -1251,8 +1369,58 @@ h1, h2, h3, h4, h5, h6 {
   .promo-section {
     padding: 50px 0;
   }
+  .promo-card-wrapper {
+    margin-bottom: 30px;
+  }
+  .promo-section .promo-card {
+    gap: 6px;
+  }
+  .promo-section .promo-card-wrapper::before {
+    border-right: none;
+  }
+  .t-p-text {
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+  }
+  .accordion .accordion-button {
+    font-size: 20px;
+  }
+  .accordion .accordion-body {
+    font-size: 16px;
+  }
+  .accordion h4 {
+    font-size: 24px;
+  }
+  .text-photo-section h1 {
+    font-size: 28px;
+  }
+  .important-section {
+    padding: 50px 0;
+  }
+  .text-section {
+    padding: 50px 0;
+  }
+  .f-free-corse {
+    padding-bottom: 50px;
+  }
+  .header-menu .h-menu {
+    display: none;
+  }
+  .menu-trigger {
+    display: flex;
+  }
 }
 @media all and (max-width: 567px) {
+  .f-free-corse {
+    padding-bottom: 40px;
+  }
+  .important-section {
+    padding: 40px 0;
+  }
+  .text-section {
+    padding: 40px 0;
+  }
   .h-menu {
     display: none !important;
   }
@@ -1262,7 +1430,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   .header-section .header-wrapper {
     display: flex;
-    justify-content: center;
   }
   .i-hero-section h1 {
     font-size: 35px;

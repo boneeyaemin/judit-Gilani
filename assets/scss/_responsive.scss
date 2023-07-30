@@ -32,13 +32,14 @@
     .course-section .course-img {
         right: -98px;
     }
+    .header-section .h-menu ul li {
+        display: none !important;
+    }
 
 }
 
 @media all and (max-width:993px){
-    .header-section .h-menu ul li {
-        display: none;
-    }
+    
     .i-hero-section h1 {
         font-size: 45px;
         line-height: 51px;
@@ -225,6 +226,48 @@
     .promo-section {
         padding: 50px 0;
     }
+    .promo-card-wrapper {
+        margin-bottom: 30px;
+    }
+    .promo-section .promo-card {
+        gap: 6px;
+    }
+    .promo-section .promo-card-wrapper::before {
+        border-right: none;
+    }
+    .t-p-text {
+        justify-content: center;
+        text-align: center;
+        padding: 30px;
+    }
+    .accordion .accordion-button {
+        font-size: 20px;
+    }
+    .accordion .accordion-body {
+        font-size: 16px;
+    }
+    .accordion h4 {
+        font-size: 24px;
+    }
+    .text-photo-section h1 {
+        font-size: 28px;
+    }
+    .important-section {
+        padding: 50px 0;
+    }
+    .text-section {
+        padding: 50px 0;
+    }
+    .f-free-corse {
+        padding-bottom: 50px;
+    }
+
+    .header-menu .h-menu {
+        display: none;
+    }
+    .menu-trigger {
+        display: flex;
+    }
 }
 
 
@@ -240,6 +283,15 @@
 
 
 @media all and (max-width:567px){
+    .f-free-corse {
+        padding-bottom: 40px;
+    }
+    .important-section {
+        padding: 40px 0;
+    }
+    .text-section {
+        padding: 40px 0;
+    }
     .h-menu {
         display: none !important;
     }
@@ -249,7 +301,6 @@
     }
     .header-section .header-wrapper {
         display: flex;
-        justify-content: center;
     }
     .i-hero-section h1 {
         font-size: 35px;

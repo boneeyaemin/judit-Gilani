@@ -45,8 +45,9 @@
 
 }
 
+
 .text-section{
-    padding: 80px 0;
+    padding: 160px 0 80px 0;
     .text-card{
         padding: 20px 0;
     }
@@ -56,11 +57,12 @@
         font-weight: 700;
         line-height: 40px;
     }
-    .text-card {
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-    }
+    
+}
+.text-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .important-section{
@@ -69,4 +71,64 @@
         padding: 0;
         background: #F1EAE3;
     }
+}
+
+.accordion{
+    padding: 80px 0;
+    .accordian-title {
+        max-width: 524px;
+        margin: auto;
+        text-align: center;
+    }
+    h4{
+        font-family: Merriweather;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
+    .accordion-button {
+        box-shadow: none !important;
+        font-family: Merriweather;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        
+        &::after {
+            content: "\2b";
+            font-family: "Font Awesome 6 Free";
+            background-image: none;
+        }
+        &:not(.collapsed) {
+            color: black;
+            background-color: transparent;
+        }
+    }
+    #accordionExample {
+        max-width: 900px;
+        margin: auto;
+    }
+    .accordion-body {
+        font-family: Nunito;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .accordian-titlee {
+        max-width: 675px;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        h4{
+            margin: 0;
+        }
+    }
+
+}
+.f-free-corse {
+	padding-bottom: 80px;
 }
